@@ -22,7 +22,7 @@ function onCreate()
 
     loadingText.innerHTML = "Initializing...";
     functions.generateLayer(0);
-    functions.setCurrentLayer(game.layers[0]);
+    functions.setCurrentLayer(game.layers[24]);
     loadingText.innerHTML = "Loading Savegame...";
     functions.loadGame();
 
